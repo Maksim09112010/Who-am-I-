@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Дякую за оцінку!</title>
+	<style>
+	body{
+	background-color: blue;
+	color: white;	
+	}
+	h1{
+	font-family: Monotype corsiva;
+	font-size: 50px;
+	}
+	h2{
+	font-family: Arial Black;
+	font-size: 50px;
+	}
+	a{
+	text-decoration: none;
+	color: deepskyblue;
+	}
+	.gif1{
+	width: 250px;
+	height: 242px;
+	border-radius: 10px;
+	animation: g1 3s;
+	}
+	.gif2{
+	width: 250px;
+	height: 242px;
+	border-radius: 10px;
+	animation: g2 3s;
+	}
+	.footer{
+	font-size: 0.9rem;
+	font-family: Consolas;
+	}
+	@keyframes g1{
+	0%{transform: scale(0,0)}
+	1%{transform: scale(0.1,0.1)}
+	50%{transform: rotate(180deg)}
+	100%{transform: rotate(0deg); scale(1,1)}
+	}
+	@keyframes g2{
+	0%{transform: scale(0,0)}
+	1%{transform: scale(0.1,0.1)}
+	50%{transform: rotate(-180deg)}
+	100%{transform: rotate(0deg); scale(1,1)}
+	}
+	</style>
+	</head>
+	<body>
+	<header><h1 align="center">Дякую за відгук!</h1></header>
+	<article>
+	<h2 align="center">Це ви, якщо ви поставили лайк моєму проекту:</h2>
+	<p align="center">
+	<img src="sigma.gif" class="gif1">
+	</p>
+	<h2 align="center">Це ви, якщо ви поставли дизлайк моєму проекту:</h2>
+	<p align="center">
+	<img src="clown.gif" class="gif2">
+	</p>
+	</article>
+	<footer>
+	<p align="center" class="footer">Створив: Рибій Максим | <a href="https://webskill.com.ua/" target="_blank">WebSkill</a>.</p>
+	</footer>
+	</body>
+</html>
